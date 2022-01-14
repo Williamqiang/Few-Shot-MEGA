@@ -3,7 +3,7 @@ Implementation of few-shot MEGA.
 This implementation is based on "[Multimodal Relation Extraction with Efficient Graph Alignment](https://dl.acm.org/doi/abs/10.1145/3474085.3476968)" in ACM Multimedia 2021. 
 
 ## Model Architecture
-![model](model.png)
+![model](m.png)
 
 The Overall Framework of Our Proposed MEGA Model. Our Model Introduces Visual Information into Predicting Textual Relations. Besides, We leverages the Graph Structural Alignment and Semantic Alignment to Help Model Find the Mapping From Visual Relations to Textual Contents.
 
