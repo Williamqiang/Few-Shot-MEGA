@@ -38,10 +38,13 @@ You can train your own model with OpenNRE. In `example` folder we give the train
 >```
 >python example/train.py \
 >--dataset ours \
->--max_epoch 10 \
->--batch_size 32 \
->--metric micro_f1 \
+>--batch_size 2 \
+>--max_epoch 2 \
+>--N 3 \
+>--K 3 \
+>--Q 3 \
 >--lr 2e-5 \
+>--metric micro_f1 \
 >--ckpt MEGA
 >```
 
@@ -55,7 +58,6 @@ To run few-shot MEGA model in inference mode, you can add the `--only_test` para
 >python example/train.py \
 >--dataset ours \
 >--batch_size 2 \
->--max_epoch 2 \
 >--N 3 \
 >--K 3 \
 >--Q 3 \
